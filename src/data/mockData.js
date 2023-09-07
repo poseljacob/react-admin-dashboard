@@ -1281,3 +1281,103 @@ export const mockGeographyData = [
     value: 171135,
   },
 ];
+
+export const mockGeographyDataUS = [
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "California",
+          "value": 500000
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[-124.848974, 24.396308], [-124.848974, 49.384358], [-66.934570, 49.384358], [-66.934570, 24.396308], [-124.848974, 24.396308]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Texas",
+          "value": 300000
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[-124.848974, 24.396308], [-124.848974, 49.384358], [-66.934570, 49.384358], [-66.934570, 24.396308], [-124.848974, 24.396308]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "New York",
+          "value": 700000
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[-124.848974, 24.396308], [-124.848974, 49.384358], [-66.934570, 49.384358], [-66.934570, 24.396308], [-124.848974, 24.396308]]]
+        }
+      }
+    ]
+  }
+  
+];
+
+
+export const mockLineDataSmall = [
+  {
+    id: "us",
+    color: tokens("dark").redAccent[200],
+    data: [
+      {
+        x: "plane",
+        y: 191,
+      },
+      {
+        x: "helicopter",
+        y: 136,
+      },
+      {
+        x: "boat",
+        y: 91,
+      },
+      {
+        x: "train",
+        y: 190,
+      },
+      {
+        x: "subway",
+        y: 211,
+      },
+      {
+        x: "bus",
+        y: 152,
+      },
+      {
+        x: "car",
+        y: 189,
+      },
+      {
+        x: "moto",
+        y: 152,
+      },
+      {
+        x: "bicycle",
+        y: 8,
+      },
+      {
+        x: "horse",
+        y: 197,
+      },
+      {
+        x: "skateboard",
+        y: 107,
+      },
+      {
+        x: "others",
+        y: 170,
+      },
+    ],
+  },
+];
